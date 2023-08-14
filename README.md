@@ -4,13 +4,13 @@ This code example encrypts and decrypts user input data using the AES algorithm 
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-pdl-xmc7000-crypto-aes)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ4NDEiLCJTcGVjIE51bWJlciI6IjAwMi0zNDg0MSIsIkRvYyBUaXRsZSI6IlBETCBjcnlwdG9ncmFwaHk6IEFFUyBkZW1vbnN0cmF0aW9uIiwicmlkIjoiY2N0YSIsIkRvYyB2ZXJzaW9uIjoiMS4wLjAiLCJEb2MgTGFuZ3VhZ2UiOiJFbmdsaXNoIiwiRG9jIERpdmlzaW9uIjoiTUNEIiwiRG9jIEJVIjoiSUNXIiwiRG9jIEZhbWlseSI6IlBTT0MifQ==)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ4NDEiLCJTcGVjIE51bWJlciI6IjAwMi0zNDg0MSIsIkRvYyBUaXRsZSI6IlBETCBjcnlwdG9ncmFwaHk6IEFFUyBkZW1vbnN0cmF0aW9uIiwicmlkIjoiY2N0YSIsIkRvYyB2ZXJzaW9uIjoiMS4xLjAiLCJEb2MgTGFuZ3VhZ2UiOiJFbmdsaXNoIiwiRG9jIERpdmlzaW9uIjoiTUNEIiwiRG9jIEJVIjoiSUNXIiwiRG9jIEZhbWlseSI6IlBTT0MifQ==)
 
 ## Requirements
 
 - [ModusToolbox&trade; software](https://www.infineon.com/modustoolbox) v3.0 or later (tested with v3.0)
 - Programming language: C
-- Associated parts: [XMC7000 MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/)
+- Associated parts: [XMC7000 MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/), [TRAVEO™ T2G body high MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/)
 
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
@@ -23,7 +23,8 @@ This code example encrypts and decrypts user input data using the AES algorithm 
 ## Supported kits (make variable 'TARGET')
 
 - [XMC7200 evaluation kit](https://www.infineon.com/KIT_XMC72_EVK) (`KIT_XMC72_EVK`) - Default value of `TARGET`
-
+- [TRAVEO™ T2G body high evaluation kit](https://www.infineon.com/KIT_T2G-B-H_EVK) (`KIT_T2G-B-H_EVK`)
+- [TRAVEO™ T2G body high evaluation kit](https://www.infineon.com/KIT_T2G-B-H_LITE) (`KIT_T2G-B-H_LITE`)
 
 ## Hardware setup
 
@@ -223,6 +224,7 @@ Document title: *CE234841* - *PDL cryptography: AES demonstration*
  Version | Description of change
  ------- | ---------------------
  1.0.0   | New code example
+ 1.1.0   | Added support for KIT_T2G-B-H_EVK, KIT_T2G-B-H_LITE
 <br />
 
 ---------------------------------------------------------
