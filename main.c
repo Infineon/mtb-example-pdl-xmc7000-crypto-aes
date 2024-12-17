@@ -164,8 +164,6 @@ int main(void)
     /* Enable the Crypto block */
     Cy_Crypto_Core_Enable(CRYPTO);
 
-    SCB_DisableDCache(); 
-
     printf("\r\nEnter the message:\r\n");
 
     for (;;)
